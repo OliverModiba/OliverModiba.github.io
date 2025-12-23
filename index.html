@@ -2,122 +2,91 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Oliver Modiba | Senior Data Analyst</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-  <!-- SEO -->
-  <meta name="description" content="Oliver Modiba – Senior Data Analyst specialising in automation, audit analytics, and business intelligence.">
-
-  <!-- LinkedIn Preview -->
-  <meta property="og:title" content="Oliver Modiba | Senior Data Analyst">
-  <meta property="og:description" content="Senior Data Analyst specialising in automation, audit analytics, and business intelligence.">
-  <meta property="og:type" content="website">
-
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- NAVBAR -->
+  <!-- NAV -->
   <header class="navbar">
     <div class="logo">OM</div>
     <nav>
+      <a href="#hero">Home</a>
       <a href="#about">About</a>
-      <a href="#skills">Skills</a>
       <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
 
   <!-- HERO -->
-  <section class="hero">
+  <section id="hero" class="hero">
+    <div class="glow"></div>
+
     <div class="hero-content">
-      <h1>Senior Data Analyst</h1>
-      <p>
-        I help organisations turn complex data into clear,
-        decision-ready insights through analytics, automation,
-        and business intelligence.
+      <h1 class="hero-title">
+        Oliver <span>Modiba</span>
+      </h1>
+
+      <h2 class="hero-subtitle">
+        <span class="typing"></span>
+      </h2>
+
+      <p class="hero-text">
+        I design analytics, automation, and intelligence systems
+        that turn complex data into confident decisions.
       </p>
-      <a href="#projects" class="btn-primary">View My Work</a>
+
+      <div class="hero-actions">
+        <a href="#projects" class="btn-primary">View Work</a>
+        <a href="#contact" class="btn-secondary">Let’s Talk</a>
+      </div>
     </div>
+
+    <div class="scroll-indicator">Scroll ↓</div>
   </section>
 
   <!-- ABOUT -->
-  <section id="about" class="section">
+  <section id="about" class="section reveal">
     <h2>About Me</h2>
-    <p class="section-text">
-      I am a Senior Data Analyst with a strong background in audit analytics,
-      ETL processes, and data automation. I focus on improving data quality,
-      identifying risk, and enabling confident decision-making through
-      reliable insights.
-    </p>
-  </section>
-
-  <!-- SKILLS -->
-  <section id="skills" class="section alt">
-    <h2>Skills</h2>
-
-    <div class="skills-grid">
-      <span>SQL</span>
-      <span>Power BI</span>
-      <span>R</span>
-      <span>Python</span>
-      <span>Excel</span>
-      <span>ETL</span>
-      <span>Data Automation</span>
-      <span>Audit Analytics</span>
-    </div>
-
-    <p class="section-text">
-      Tools & platforms: SQL Server, Power BI, R, Python, Excel, GitHub
+    <p>
+      Senior Data Analyst with strong experience in audit analytics,
+      ETL, automation, and business intelligence. I enjoy building
+      elegant solutions that reduce risk and increase clarity.
     </p>
   </section>
 
   <!-- PROJECTS -->
-  <section id="projects" class="section">
-    <h2>Projects</h2>
+  <section id="projects" class="section reveal">
+    <h2>Featured Work</h2>
 
     <div class="projects-grid">
       <div class="project-card">
         <h3>Debtors & Creditors Ageing</h3>
-        <p>
-          Designed automated ageing checks to improve accuracy
-          and reduce manual review effort.
-        </p>
+        <p>Automated validation and exception detection.</p>
       </div>
-
       <div class="project-card">
-        <h3>Inventory Exception Analysis</h3>
-        <p>
-          Built analytics to identify inventory exceptions
-          and support audit conclusions.
-        </p>
+        <h3>Inventory Risk Analytics</h3>
+        <p>Exception-based inventory audit testing.</p>
       </div>
-
       <div class="project-card">
-        <h3>Payroll Terminated Employees</h3>
-        <p>
-          Analysed payroll data to identify terminated employee
-          risks and control weaknesses.
-        </p>
+        <h3>Payroll Termination Checks</h3>
+        <p>Fraud and control analytics.</p>
       </div>
     </div>
   </section>
 
   <!-- CONTACT -->
-  <section id="contact" class="section alt">
+  <section id="contact" class="section reveal">
     <h2>Contact</h2>
-
-    <p>Email: <a href="mailto:oliver@email.com">oliver@email.com</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/olivermodiba" target="_blank">linkedin.com/in/olivermodiba</a></p>
-    <p>GitHub: <a href="https://github.com/olivermodiba" target="_blank">github.com/olivermodiba</a></p>
+    <p>Email: oliver@email.com</p>
+    <p>LinkedIn: linkedin.com/in/olivermodiba</p>
+    <p>GitHub: github.com/olivermodiba</p>
   </section>
 
-  <footer>
-    <p>© 2025 Oliver Modiba</p>
-  </footer>
+  <footer>© 2025 Oliver Modiba</footer>
 
   <script src="script.js"></script>
 </body>
