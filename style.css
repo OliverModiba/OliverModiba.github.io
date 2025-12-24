@@ -113,7 +113,8 @@ nav a:hover {
 .section h2 {
   font-size: 2.4rem;
   margin-bottom: 1.5rem;
-  padding-right: 2rem; /* space AFTER the text */
+  /* s padding-right: 2rem; pace AFTER the text */
+  text-align: center;   /* ⬅️ center the title */
 }
 
 .section p {
