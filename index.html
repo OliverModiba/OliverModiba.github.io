@@ -5,105 +5,137 @@
   <title>Oliver Modiba | Senior Data Analyst</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
+  <!-- Fonts & Icons -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <!-- NAV -->
   <header class="navbar">
-    <div class="logo">OM</div>
+    <div class="logo">OM<span>.</span></div>
     <nav>
       <a href="#hero">Home</a>
       <a href="#about">About</a>
+      <a href="#skills">Skills</a>
       <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
 
   <!-- HERO -->
-  <section id="hero" class="hero">
+  <section id="hero" class="panel hero">
     <div class="glow"></div>
-
     <div class="hero-content">
-      <h1 class="hero-title">
-        Oliver <span>Modiba</span>
-      </h1>
-
-      <h2 class="hero-subtitle">
-        <span class="typing"></span>
-      </h2>
-
-      <p class="hero-text">
-        I design analytics, automation, and intelligence systems
-        that turn complex data into confident decisions.
+      <h1>Oliver <span>Modiba</span></h1>
+      <h2><span class="typing"></span></h2>
+      <p>
+        Senior Data Analyst specialising in audit analytics,
+        automation, and business intelligence.
       </p>
-
       <div class="hero-actions">
         <a href="#projects" class="btn-primary">View Work</a>
-        <a href="#contact" class="btn-secondary">Let’s Talk</a>
+        <a href="#contact" class="btn-secondary">Contact Me</a>
       </div>
     </div>
-
-    <div class="scroll-indicator">Scroll ↓</div>
   </section>
 
   <!-- ABOUT -->
-  <section id="about" class="section reveal">
+  <section id="about" class="panel section reveal">
     <h2>About Me</h2>
     <p>
-      Senior Data Analyst with strong experience in audit analytics,
-      ETL, automation, and business intelligence. I enjoy building
-      elegant solutions that reduce risk and increase clarity.
+      I am a Senior Data Analyst with experience across audit analytics,
+      ETL processes, and data automation. I focus on reducing risk,
+      improving data quality, and enabling leadership to make confident,
+      data-driven decisions.
     </p>
   </section>
 
   <!-- SKILLS -->
-  <section id="skills" class="section reveal">
-    <h2>Skills</h2>
+  <section id="skills" class="panel section reveal">
+    <h2>Core Skills</h2>
 
     <div class="skills-grid">
-      <span>SQL</span>
-      <span>Power BI</span>
-      <span>R</span>
-      <span>Python</span>
-      <span>Excel</span>
-      <span>ETL</span>
-      <span>Data Automation</span>
-      <span>Audit Analytics</span>
-    </div>
+      <div class="skill-card">
+        <i class="fas fa-database"></i>
+        <h4>SQL</h4>
+        <p>Advanced querying & validation</p>
+      </div>
 
-    <p class="section-text">
-      Tools & platforms: SQL Server, Power BI, R, Python, Excel, GitHub
-    </p>
+      <div class="skill-card">
+        <i class="fas fa-chart-line"></i>
+        <h4>Power BI</h4>
+        <p>Executive dashboards & insights</p>
+      </div>
+
+      <div class="skill-card">
+        <i class="fab fa-python"></i>
+        <h4>Python</h4>
+        <p>Automation & data processing</p>
+      </div>
+
+      <div class="skill-card">
+        <i class="fab fa-r-project"></i>
+        <h4>R</h4>
+        <p>Statistical & audit analytics</p>
+      </div>
+
+      <div class="skill-card">
+        <i class="fas fa-gears"></i>
+        <h4>ETL</h4>
+        <p>Data pipelines & transformations</p>
+      </div>
+
+      <div class="skill-card">
+        <i class="fas fa-shield-halved"></i>
+        <h4>Audit Analytics</h4>
+        <p>Risk & exception testing</p>
+      </div>
+
+      <div class="skill-card">
+        <i class="fas fa-bolt"></i>
+        <h4>Automation</h4>
+        <p>Efficiency & control improvements</p>
+      </div>
+
+      <div class="skill-card">
+        <i class="fas fa-file-excel"></i>
+        <h4>Excel</h4>
+        <p>Advanced models & analysis</p>
+      </div>
+    </div>
   </section>
-  
+
   <!-- PROJECTS -->
-  <section id="projects" class="section reveal">
+  <section id="projects" class="panel section reveal">
     <h2>Featured Work</h2>
 
     <div class="projects-grid">
       <div class="project-card">
-        <h3>Debtors & Creditors Ageing</h3>
-        <p>Automated validation and exception detection.</p>
+        <h3>Debtors & Creditors Re-Ageing</h3>
+        <p>Automated ageing logic and exception identification.</p>
       </div>
+
       <div class="project-card">
-        <h3>Inventory Risk Analytics</h3>
-        <p>Exception-based inventory audit testing.</p>
+        <h3>Inventory Audit Analytics</h3>
+        <p>Risk-based inventory exception testing.</p>
       </div>
+
       <div class="project-card">
-        <h3>Payroll Termination Checks</h3>
-        <p>Fraud and control analytics.</p>
+        <h3>Payroll Termination Analytics</h3>
+        <p>Control testing and trend analysis.</p>
       </div>
     </div>
   </section>
 
   <!-- CONTACT -->
-  <section id="contact" class="section reveal">
+  <section id="contact" class="panel section reveal">
     <h2>Contact</h2>
-    <p>Email: oliver@email.com</p>
-    <p>LinkedIn: linkedin.com/in/olivermodiba</p>
-    <p>GitHub: github.com/olivermodiba</p>
+    <p>Email: <a href="mailto:oliver@email.com">oliver@email.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/olivermodiba" target="_blank">linkedin.com/in/olivermodiba</a></p>
+    <p>GitHub: <a href="https://github.com/olivermodiba" target="_blank">github.com/olivermodiba</a></p>
   </section>
 
   <footer>© 2025 Oliver Modiba</footer>
