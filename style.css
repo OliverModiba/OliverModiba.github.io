@@ -110,44 +110,55 @@ nav a:hover {
 }
 
 /* SECTIONS */
+
+/* SECTION CONTENT WRAPPER */
+.section-content {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* SECTION HEADING */
 .section h2 {
   font-size: 2.4rem;
-  margin-bottom: 1.5rem;
-  text-align: center;   /* ⬅️ center the title */
-  padding-right: 0;     /* ⬅️ remove right spacing */
+  margin-bottom: 2.5rem;
+  text-align: center;
 }
 
-.section p {
-  max-width: 700px;
-  margin: auto;
-  color: var(--muted);
-}
-
-/* SKILLS */
+/* SKILLS GRID - HORIZONTAL */
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
-  margin-top: 3rem;
 }
 
+/* SKILL CARD POLISH */
 .skill-card {
   background: var(--card);
   padding: 2rem;
   border-radius: 20px;
+  text-align: center;
   transition: all 0.4s ease;
-}
-
-.skill-card i {
-  font-size: 2.5rem;
-  color: var(--accent);
-  margin-bottom: 1rem;
 }
 
 .skill-card:hover {
   transform: translateY(-10px);
   box-shadow: 0 20px 40px rgba(0,0,0,0.4);
 }
+
+/* RESPONSIVE */
+@media (max-width: 1000px) {
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 
 /* PROJECTS */
 .projects-grid {
