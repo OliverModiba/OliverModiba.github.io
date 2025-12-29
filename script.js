@@ -2,7 +2,6 @@
 const roles = [
   "Data Analyst",
   "Risk Analyst",
-  "Data Analyst",
   "BI Analyst",
   "Automation",
   "Financial Data Analyst",
