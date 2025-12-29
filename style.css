@@ -228,3 +228,21 @@ footer {
   background: linear-gradient(135deg, #1d4ed8, #1e3a8a);
 }
 
+.project-btn {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.6rem 1.5rem;
+  border-radius: 999px;
+  background: transparent;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.project-btn:hover {
+  background: var(--accent);
+  color: #020617;
+  transform: translateY(-2px);
+}
