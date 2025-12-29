@@ -1,8 +1,17 @@
 
 const roles = [
-  "Senior Data Analyst",
-  "Audit & Risk Analytics Specialist",
-  "Automation & BI Professional"
+  "Data Analyst",
+  "Risk Analyst",
+  "Data Analyst",
+  "BI Analyst",
+  "Automation",
+  "Financial Data Analyst",
+  "Data Scientist",
+  "Analytics Consultant",
+  "Audit Analytics",
+  "CAATS",
+  "AML Specialist",
+  "Banking System Tester"
 ];
 
 let roleIndex = 0;
