@@ -282,4 +282,8 @@ footer {
     padding: 2.2rem;
 }
 
+.glow {
+  pointer-events: none;
+}
+
 
