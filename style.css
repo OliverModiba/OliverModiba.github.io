@@ -125,14 +125,14 @@ nav a:hover {
   text-align: center;
 }
 
-/* SKILLS GRID - HORIZONTAL */
+/* SKILLS GRID */
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
 }
 
-/* SKILL CARD POLISH */
+/* SKILL CARD */
 .skill-card {
   background: var(--card);
   padding: 2rem;
@@ -141,9 +141,22 @@ nav a:hover {
   transition: all 0.4s ease;
 }
 
+/* OFFICIAL LOGOS */
+.skill-card img {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease;
+}
+
+/* HOVER EFFECT */
 .skill-card:hover {
   transform: translateY(-10px);
   box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+
+.skill-card:hover img {
+  transform: scale(1.15);
 }
 
 /* RESPONSIVE */
