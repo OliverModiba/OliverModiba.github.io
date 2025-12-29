@@ -10,7 +10,7 @@ const roles = [
   "Audit Analytics",
   "CAATS",
   "AML Specialist",
-  "Banking System Tester"
+  "Banking Systems Tester"
 ];
 
 let roleIndex = 0;
