@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<meta name="google-site-verification" content="MlAxFRsWNYaflrfqXRQFStYtyLAF_tRvlQLwOZBOA_U" />
-  
 <head>
   <meta charset="UTF-8" />
   <title>Oliver Modiba | Data Analyst</title>
@@ -14,39 +12,39 @@
 
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  <!-- NAV -->
-  <header class="navbar">
-    <div class="logo">OM<span>.</span></div>
-    <nav>
-      <a href="#hero">Home</a>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+<!-- NAV -->
+<header class="navbar">
+  <div class="logo">OM<span>.</span></div>
+  <nav>
+    <a href="#hero">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
 
-  <!-- HERO -->
-  <section id="hero" class="panel hero">
-    <div class="glow"></div>
-    <div class="hero-content">
-      <h1>Oliver <span>Modiba</span></h1>
-      <h2><span class="typing"></span></h2>
-      <p>
-        Data Analyst specialising in analytics,
-        Risk Analysis, and business intelligence.
-      </p>
-      <div class="hero-actions">
-        <a href="#projects" class="btn-primary">
-  View Work <i class="fa-solid fa-arrow-down"></i>
-</a>
-        
-        <a href="#contact" class="btn-secondary">Contact Me</a>
-      </div>
+<!-- HERO -->
+<section id="hero" class="panel hero">
+  <div class="glow"></div>
+  <div class="hero-content">
+    <h1>Oliver <span>Modiba</span></h1>
+    <h2><span class="typing"></span></h2>
+    <p>
+      Data Analyst specialising in analytics,
+      Risk Analysis, and business intelligence.
+    </p>
+    <div class="hero-actions">
+      <a href="#projects" class="btn-primary">
+        View Work <i class="fa-solid fa-arrow-down"></i>
+      </a>
+      <a href="#contact" class="btn-secondary">Contact Me</a>
     </div>
-  </section>
+  </div>
+</section>
 
 <!-- ABOUT -->
 <section id="about" class="panel section reveal">
@@ -60,19 +58,15 @@
     </p>
 
     <div class="about-actions">
-  <a 
-    href="https://drive.google.com/file/d/1EYQY6usx8j0ugZiJTU8dySaCvx-lRXIB/view?usp=sharing/view" 
-    target="_blank" 
-    class="cv-button"
-  >
-    View My CV
-  </a>
-</div>
+      <!-- ✅ SAFE: Local PDF recommended -->
+      <a href="assets/Oliver_Modiba_CV.pdf" target="_blank" class="cv-button">
+        View My CV
+      </a>
 
     
+    </div>
   </div>
 </section>
-
 
 <!-- SKILLS -->
 <section id="skills" class="panel section reveal">
@@ -94,7 +88,7 @@
       </div>
 
       <div class="skill-card">
-       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
         <h4>Python</h4>
         <p>Automation & Data processing</p>
       </div>
@@ -117,16 +111,16 @@
         <p>Advanced models & analysis</p>
       </div>
 
+      <!-- ✅ SAFE placeholder -->
       <div class="skill-card">
-       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIc_86c4dHV_YF5eptUvHEcl27jSEsbg3-jg&s" alt="Audit Analytics">
-
+        <img src="assets/images/risk-analytics.svg" alt="Risk Analytics">
         <h4>Risk Analytics</h4>
         <p>Risk Management</p>
       </div>
 
-      <div class="skill-card">
-        <img src="https://i.ytimg.com/vi/pDpQbwDjZCA/maxresdefault.jpg" alt="Automation">
 
+      <div class="skill-card">
+        <img src="assets/images/caseware-idea.svg" alt="Caseware IDEA">
         <h4>Caseware IDEA</h4>
         <p>Efficiency & Control improvements</p>
       </div>
@@ -135,112 +129,65 @@
   </div>
 </section>
 
-
-
-
 <!-- PROJECTS -->
+<section id="projects" class="panel section reveal">
+  <div class="section-content">
+    <h2>Featured Work</h2>
 
-  <section id="projects" class="panel section reveal"> 
-    <div class="section-content">
-      <h2>Featured Work</h2>
-    
-<div class="projects-grid">
+    <div class="projects-grid">
 
+      <div class="project-card">
+        <div class="project-icon">
+          <i class="fa-solid fa-chart-line"></i>
+        </div>
+        <h3>Income Analysis & Prediction</h3>
+        <p>Python - Predicting income levels based on demographic and employment factors.</p>
+        <a href="https://github.com/OliverModiba/Adult-Income-Analysis-Prediction" target="_blank" class="project-btn">
+          Explore Project
+        </a>
+      </div>
 
-<div class="project-card">
-  <div class="project-icon">
-    <i class="fa-solid fa-chart-line"></i>
+      <div class="project-card">
+        <div class="project-icon">
+          <i class="fa-solid fa-mobile-screen-button"></i>
+        </div>
+        <h3>Mobile App Advertising Analytics & App Selection Model</h3>
+        <p>Power BI & R - Optimizing cost-effective mobile advertising decisions.</p>
+        <a href="https://github.com/OliverModiba/Mobile-App-Advertising-Analytics-App-Selection-Model" target="_blank" class="project-btn">
+          Explore Project
+        </a>
+      </div>
+
+      <div class="project-card">
+        <div class="project-icon">
+          <i class="fa-solid fa-file-invoice-dollar"></i>
+        </div>
+        <h3>Multi-Source CSV Transaction Analytics Engine</h3>
+        <p>R - Transaction traceability and insights.</p>
+        <a href="https://github.com/OliverModiba/Multi-Source-CSV-Transaction-Analytics-Engine" target="_blank" class="project-btn">
+          Explore Project
+        </a>
+      </div>
+
+      <div class="project-card">
+        <div class="project-icon">
+          <i class="fa-solid fa-file-invoice-dollar"></i>
+        </div>
+        <h3>Financial Statement Reconciliation Automation</h3>
+        <p>Excel VBA - Reconciliation & discrepancy detection.</p>
+        <a href="https://github.com/OliverModiba/GP-Supplier-Ledger-Comparison-Engine" target="_blank" class="project-btn">
+          Explore Project
+        </a>
+      </div>
+
+    </div>
   </div>
-
-  <h3>Income Analysis & Prediction</h3>
-   
-  <p>Python - Predicting income levels based on demographic and employment factors.</p>
-
-  <a 
-    href="https://github.com/OliverModiba/Adult-Income-Analysis-Prediction" 
-    target="_blank" 
-    class="project-btn"
-  >
-    Explore Project
-  </a>
-</div>
-
-
-  <div class="project-card">
-  <div class="project-icon">
-    <i class="fa-solid fa-mobile-screen-button"></i>
-  </div>
-
-  <h3>Mobile App Advertising Analytics & App Selection Model</h3>
-   
-  <p>Power BI & R - Analyzes app performance metrics to optimize data-driven & Cost-effective mobile advertising decisions.</p>
-
-  <a 
-    href="https://github.com/OliverModiba/Mobile-App-Advertising-Analytics-App-Selection-Model" 
-    target="_blank" 
-    class="project-btn"
-  >
-    Explore Project
-  </a>
-</div>
-
-
-
-<div class="project-card">
-  <div class="project-icon">
-    <i class="fa-solid fa-file-invoice-dollar"></i>
-  </div>
-
-  <h3>Multi-Source CSV Transaction Analytics Engine</h3>
-  
-  <p>R - Analyzes transactional records across datasets for traceability and insights.</p>
-
-  <a 
-    href="https://github.com/OliverModiba/Multi-Source-CSV-Transaction-Analytics-Engine/tree/main" 
-    target="_blank" 
-    class="project-btn"
-  >
-    Explore Project
-  </a>
-</div>
-
-
-  <div class="project-card">
-  <div class="project-icon">
-    <i class="fa-solid fa-file-invoice-dollar"></i>
-  </div>
-
-  <h3>Financial Statement Reconciliation Automation (VBA)</h3>
-  
-  <p>Excel VBA - Cleans, reconciles, and flags discrepancies between GP and supplier statements.</p>
-
-  <a 
-    href="https://github.com/OliverModiba/GP-Supplier-Ledger-Comparison-Engine" 
-    target="_blank" 
-    class="project-btn"
-  >
-    Explore Project
-  </a>
-</div>
-
-
-  
-
-
-
-  
-
-</div>
-
-</div> 
-  
 </section>
 
 <!-- CONTACT -->
 <section id="contact" class="panel section reveal">
   <div class="section-content">
     <h2>Contact</h2>
-
     <div class="contact-grid">
       <p><strong>Email:</strong> <a href="mailto:oliver@email.com">oliver@email.com</a></p>
       <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/olivermodiba" target="_blank">linkedin.com/in/olivermodiba</a></p>
@@ -249,9 +196,9 @@
   </div>
 </section>
 
+<footer>© 2025 Oliver Modiba</footer>
 
-  <footer>© 2025 Oliver Modiba</footer>
+<script src="script.js"></script>
 
-  <script src="script.js"></script>
 </body>
 </html>
